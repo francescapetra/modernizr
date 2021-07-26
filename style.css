@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: pink;
+}
+h1{
+    text-align: center;
+}

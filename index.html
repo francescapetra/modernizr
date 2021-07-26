@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Test Modernizr Flexbox e Audio</h1>
+    <h2>Nuovo Test Modernizr</h2>
+    <h3>Nuovo Test Modernizr</h3>
+    <h4>Nuovo Test Modernizr</h4>
+    <h5>Nuovo Test Modernizr</h5>
+    <h6>Nuovo Test Modernizr</h6>
+
+    <!-- file js dove si trova il builder -->
+    <script src="modernizr.js"></script>
+
+    <!-- classe test per giorno settimana -->
+
+    <script>
+        Modernizr.addTest('mercoledi', function() {
+        var d = new Date();
+        return d.getDay() === 2;
+    });
+    </script>
+</body>
+</html>
